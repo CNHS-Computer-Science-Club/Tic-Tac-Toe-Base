@@ -4,9 +4,9 @@
 turn = True
 
 #0 = O, 1 = X
-board = [["", "", ""], 
-         ["", "", ""], 
-         ["", "", ""]]
+board = [[" ", " ", " "], 
+         [" ", " ", " "], 
+         [" ", " ", " "]]
          
 #check_board for winners
 def check_board():
