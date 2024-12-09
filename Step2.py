@@ -37,9 +37,9 @@ def take_input():
     global turn
     while True:
         if turn:
-            print("Player 1's turn (X)")
+            print("\n" + "Player 1's turn (X)")
         else:
-            print("Player 2's turn (O)")
+            print("\n" + "Player 2's turn (O)")
         try:
             # Prompt the user for input in "row,col" format
             input_string = input("Enter your move as 'row,col' e.g., 0,1 : ").strip()
@@ -71,4 +71,3 @@ def reset_game():
 while(game):
     take_input()
     new_turn()
-
